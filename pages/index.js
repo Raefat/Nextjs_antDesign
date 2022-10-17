@@ -17,10 +17,11 @@ export default function Home() {
       <main className={styles.main}>
         <div style={{ padding: 100 }}>
           <Space direction="horizontal">
-            <Button type="primary" color='red'>Primary Button</Button>
+            <Button type="primary">Primary Button</Button>
+            <Button type="text" color='success'>secondary Button</Button>
             <Button type="ghost">Ghost Button</Button>
             <DatePicker onChange={onChange} />
-             <i style={{color:'#f23333',fontSize:'3em'}}><SaveFilled color='green' /></i> 
+             <SaveFilled style={{color:'#2e3',fontSize:'3em'}} />
           </Space>
         </div>
       </main>
